@@ -538,7 +538,8 @@ a.socilicn i.fa {color: #fff; font-size: 14px;}
 
 
 .first-section {
-    background-color: #e7e7e7;
+   background: rgb(79,125,208);
+background: linear-gradient(62deg, rgba(79,125,208,0.8911939775910365) 0%, rgba(222,85,85,0.48503151260504207) 49%, rgba(0,181,255,0.48783263305322133) 100%);
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
