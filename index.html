@@ -25,7 +25,9 @@
      <link rel="stylesheet" href="css/font-awesome.css">
      <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
  <!--    <link rel="stylesheet" href="css/flexslider.css"> -->
-
+<link
+  href="https://cdn.jsdelivr.net/npm/@hellouxpavel/cssanimation@latest/dist/cssanimation.min.css"
+  rel="stylesheet" />
 
 <!--   <link href="vendor/aos/aos.css" rel="stylesheet"> -->
 <!--  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -279,7 +281,7 @@ color: white;
     <div class="row justify-content-center">
 
       <div class="col-md-6">
-        <div class="intro">
+        <div class="intro" data-scrolly-down="blurInTop">
         
           <h1 class="my-name">I'm </h1>
           <h1 class="my-name"><span>Raghavendra</span></h1>
@@ -327,8 +329,8 @@ color: white;
         </div>
 
       </div>
-      <div class="col-md-6 pb-0 img">
-        <img src="images/portfolioimg.png" width="100%" height="auto">
+      <div class="col-md-6 pb-0 hero-right">
+        <img src="images/portfolioimg.png" width="100%" height="auto" style="transform: translate(-4.5px);">
       </div>
     </div>
 
@@ -364,7 +366,7 @@ color: white;
     <section class="">
   <div class="bodywrp">
     <div class="container">
-         <div class="row">
+         <div class="row" data-scrolly-down="blurInTop, delay:2s">
 
 <p>Hello! I'm Web Developer from Bangalore, India. With more than five years of experience in web development, I have good work experience with various startups where I was core part of developer team and work on major features.</p>
 
@@ -1053,7 +1055,9 @@ Skills
             </div>
           </div>
 
-			            <div class="col-lg-4 col-md-4 portfolio-item reactwrp">
+
+
+            <div class="col-lg-4 col-md-4 portfolio-item reactwrp">
             <div class="portfolio-wrap">
               <img src="images/portfolio/weatherapp.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -1256,7 +1260,7 @@ Skills
     <script src="js/bootstrap.min1.js"></script>
    <script src="js/glightbox.min.js"></script> 
  <script src="js/main-new.js"></script>  
-
+<script src="https://unpkg.com/scrollyjs/dist/scrolly.min.js"></script>
       <script src="vendor/purecounter/purecounter.js"></script>
   <script src="vendor/aos/aos.js"></script>
   <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
@@ -1337,4 +1341,3 @@ window.addEventListener("scroll", () => {
 
   </body>
 </html>
-
